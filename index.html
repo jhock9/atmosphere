@@ -15,15 +15,13 @@
         height: 100%;
       }
       body {
-        background-color: #282c34;
         min-height: 100%;
         margin: 0;
         padding: 0;
       }
-      canvas,
-      #canvasBorder {
+      canvas {
         padding: 0;
-        margin: auto;
+        margin: 0;
         display: block;
         position: absolute;
         top: 0;
@@ -31,17 +29,12 @@
         left: 0;
         right: 0;
       }
-      /* #canvasBorder {
-      background-color: white;
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-      } */
     </style>
   </head>
 
-  <body id="body">
-    <div id="canvasBorder" width="1150" height="1450" >
-      <canvas id="p5Canvas"></canvas>
-    </div>
-    <script src="atmos.js"></script>
+  <body>
+      <canvas></canvas>
+    <!-- <script src="atmos.js"></script> -->
+    <script src="temp.js"></script>
   </body>
 </html>
