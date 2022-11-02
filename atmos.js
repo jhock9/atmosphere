@@ -24,6 +24,7 @@ function draw() {
     let y = r * sin(a);
     vertex(x, y);
   }
+  
   endShape(CLOSE);
   zOff += 0.005;
 };
