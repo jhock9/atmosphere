@@ -46,5 +46,5 @@ function draw() {
       };
     endShape();
 
-  noLoop();
+  // noLoop();
 };
