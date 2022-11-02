@@ -48,6 +48,3 @@ function draw() {
 
   noLoop();
 };
-
-windowResized();
-  resizeCanvas(windowWidth, windowHeight);
